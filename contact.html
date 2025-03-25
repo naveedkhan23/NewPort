@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Naveed Khan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">Naveed Khan <h4>Frontend Web Developer</h4></h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <ul class="menu-list" id="menuList">
+                <li class="menu-list-items">
+                    <a class="links" href="index.html">Home</a>
+                </li>
+                <li class="menu-list-items">
+                    <a class="links" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="menu-list-items">
+                    <a class="links" href="about.html">About</a>
+                </li>
+                <li class="menu-list-items">
+                    <a class="links" href="services.html">Services</a>
+                </li>
+                <li class="menu-list-items">
+                    <a class="links" href="skills.html">My Skills</a>
+                </li>
+                <li class="menu-list-items">
+                    <a class="links" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="contact-heading">Get in Touch</h2>
+        <div class="contact-content">
+            <!-- Contact Form -->
+            <div class="contact-form-container">
+                <form id="contactForm" action="https://getform.io/f/your-form-endpoint" method="POST" class="contact-form">
+                    <input type="text" name="name" class="form-controls" placeholder="Your Name" required>
+                    <input type="email" name="email" class="form-controls" placeholder="Your Email" required>
+                    <textarea name="message" class="form-controls" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="form-btn">Send Message</button>
+                </form>
+                <div id="successMessage" class="success-message" style="display: none;">
+                    Message sent successfully!
+                </div>
+                <div id="errorMessage" class="error-message" style="display: none;">
+                    Please fill all fields correctly.
+                </div>
+            </div>
+            <!-- Contact Details -->
+            <div class="contact-details">
+                <h1>Contact Information</h1>
+                <div class="details">
+                    <h5>Email</h5>
+                    <p class="contact-text">naveedeng449@gmail.com</p>
+                </div>
+                <div class="details">
+                    <h5>Phone</h5>
+                    <p class="contact-text">+92 3192536-057</p>
+                </div>
+                <div class="details">
+                    <h5>Address</h5>
+                    <p class="contact-text">Pakistan Distric Dir Lower Timergara</p>
+                </div>
+                <div id="statusMessage" style="display: none;"></div>
+<div id="successMessage" style="display: none;"></div>
+<div id="errorMessage" style="display: none;"></div>
+                <!-- Social Media Links -->
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/naveed_youzafzai0?igsh=MWV6YzE5OXlqajF2ZQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/naveed-khan-46b86a338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Naveed Khan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
